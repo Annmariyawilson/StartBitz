@@ -130,10 +130,10 @@ export default function Achievements() {
             >
               <FaMedal className="text-4xl text-yellow-400 drop-shadow-glow" />
             </motion.div>
-            <h3 className="text-[#b28b64] text-sm mb-3 line-clamp-2 font-bold">
+            <h3 className="text-[#b28b64] text-sm mb-3 font-bold">
               {achievements[0].title}
             </h3>
-            <p className="text-white text-sm mb-3 line-clamp-2">
+            <p className="text-white text-sm mb-3">
               {achievements[0].description}
             </p>
           </div>

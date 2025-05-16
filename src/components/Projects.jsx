@@ -128,11 +128,11 @@ export default function Projects() {
       </div>
 
       {/* Hint */}
-      <div className="mt-6 flex gap-2 items-center text-cyan-400/60 text-sm font-medium">
+      {/* <div className="mt-6 flex gap-2 items-center text-cyan-400/60 text-sm font-medium">
         <motion.span animate={{ x: [-5, 0, -5] }} transition={{ duration: 1.5, repeat: Infinity }}>←</motion.span>
         Auto-scrolling carousel
         <motion.span animate={{ x: [0, 5, 0] }} transition={{ duration: 1.5, repeat: Infinity }}>→</motion.span>
-      </div>
+      </div> */}
     </motion.section>
   )
 }
